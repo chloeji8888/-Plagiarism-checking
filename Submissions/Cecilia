@@ -1,0 +1,19 @@
+#include<iostream>
+
+/**
+prints values over a range
+@param first the first number to print
+@param last the last number to print
+*/
+void print(int first, int last) {
+  for(; first <= last; ++first){ // keep increasing first and printing it
+    std::cout << first;
+  }
+}
+
+int main(){
+  // prints 3 ... 30
+  print(3, 30);
+
+  return 0;
+}
