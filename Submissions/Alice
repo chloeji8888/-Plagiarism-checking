@@ -1,0 +1,15 @@
+#include<iostream>
+
+// prints consecutive values
+void print(int low, int up) {
+  for(int i = 0; i <= up; ++i){
+    std::cout << i;
+  }
+}
+
+int main(){
+  // print from 3 to 30 inclusive
+  print(3, 30);
+
+  return 0;
+}
