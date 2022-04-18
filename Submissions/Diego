@@ -1,0 +1,11 @@
+#include<iostream>
+
+void print(int x, int y) {
+  while(x <= y){
+    std::cout << x++;
+  }
+}
+
+int main(){
+  print(3, 30);
+}
